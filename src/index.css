@@ -16,3 +16,16 @@ body{
 .wid{
   width: calc(100vw - 5rem);
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(22,189,199);
+background: linear-gradient(144deg, rgba(22,189,199,1) 32%, rgba(255,0,232,1) 85%);
+border-radius: 10px;
+}
+
